@@ -1,0 +1,47 @@
+/* Your styles here */
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#dogsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("./image/positive.png");
+
+}
+
+.dog-card {
+    width: 33%;
+}
+
+.dog-content,
+h3,
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.dog-content img {
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.dog-content {
+    box-shadow: 5px 5px 8px darkgrey;
+    background-color: olive;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
